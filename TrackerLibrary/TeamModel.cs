@@ -14,7 +14,7 @@ namespace TrackerLibrary
         /// <summary>
         /// Represent a list of members of a team
         /// </summary>
-        public List<Person> TeamMembers { get; set; } = new List<Person>();
+        public List<PersonModel> TeamMembers { get; set; } = new List<PersonModel>();
         /// <summary>
         /// The name of the team
         /// </summary>

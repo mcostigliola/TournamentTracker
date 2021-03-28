@@ -156,8 +156,9 @@ namespace TrackerUI
             this.createPrizeButton.TabIndex = 26;
             this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = true;
+            this.createPrizeButton.Click += new System.EventHandler(this.createPrizeButton_Click);
             // 
-            // CreatePriceForm
+            // CreatePrizeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -176,7 +177,7 @@ namespace TrackerUI
             this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.Name = "CreatePriceForm";
+            this.Name = "CreatePrizeForm";
             this.Text = "Create Price";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -8,9 +8,41 @@ namespace TrackerLibrary
 {
     public class PrizeModel
     {
+        /// <summary>
+        /// Identifier unique not null
+        /// </summary>
+        public int Id { get; set; }
         public int PlaceNumber { get; set; }
         public string PlaceName { get; set; }
         public decimal PrizeAmount { get; set; }
-        public double PricePercentage { get; set; }
+        public double PrizePercentage { get; set; }
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        public PrizeModel(){}
+        /// <summary>
+        /// Overloaded constructor
+        /// </summary>
+        /// <param name="placeName"></param>
+        /// <param name="placeNumber"></param>
+        /// <param name="prizeAmount"></param>
+        /// <param name="prizePercentage"></param>
+        public PrizeModel(string placeName, string placeNumber, string prizeAmount, string prizePercentage)
+        {
+            PlaceName = placeName;
+
+            int placeNumberValue = 0;
+            int.TryParse(placeNumber, out placeNumberValue);
+            PlaceNumber = placeNumberValue;
+
+            decimal prizeAmountValue = 0;
+            decimal.TryParse(prizeAmount, out prizeAmountValue);
+            PrizeAmount = prizeAmountValue;
+
+            double prizePercentageValue = 0;
+            double.TryParse(prizePercentage, out prizePercentageValue);
+            PrizePercentage = prizePercentageValue;
+        }
+
     }
 }
