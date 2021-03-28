@@ -10,3 +10,5 @@ C:\Users\mcostigliola\source\repos\TournamentTracker\TrackerUI\obj\Debug\Tracker
 C:\Users\mcostigliola\source\repos\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.pdb
 C:\Users\mcostigliola\source\repos\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.CreateTournamentForm.resources
 C:\Users\mcostigliola\source\repos\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.CreateTeamForm.resources
+C:\Users\mcostigliola\source\repos\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.CreatePrizeForm.resources
+C:\Users\mcostigliola\source\repos\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.TournamentDashboardForm.resources
